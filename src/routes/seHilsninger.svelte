@@ -34,11 +34,11 @@
 </div>
 
 <style>
-    .tittel {
+   /* .tittel {
         font-display: bold;
         font-size: 35
     }
-
+    */
     .konteiner {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));

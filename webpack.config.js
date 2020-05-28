@@ -30,7 +30,7 @@ module.exports = {
 				}
 			]
 		},
-		mode,
+		mode: 'development',
 		plugins: [
 			// pending https://github.com/sveltejs/svelte/issues/2377
 			// dev && new webpack.HotModuleReplacementPlugin(),

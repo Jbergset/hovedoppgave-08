@@ -22,7 +22,7 @@
 <div class="konteiner">
         {#each articles as article}
             <div class="card">
-                <img src="{article.urlToImage}">
+                <img alt="artikkel bilder"src="{article.urlToImage}">
                 <div class="card-body">
                     <h3>{article.title}</h3>
                     <p> {article.description} </p>
@@ -33,7 +33,6 @@
 </div>
 
 <style>
-
 h1 {
     color: orangered;
     font-family: 'kalam';
